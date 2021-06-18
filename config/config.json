@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "find-and-replace-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/findAndReplace/FindAndReplaceWebPart.js",
+          "manifest": "./src/webparts/findAndReplace/FindAndReplaceWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FindAndReplaceWebPartStrings": "lib/webparts/findAndReplace/loc/{locale}.js"
+  }
+}
