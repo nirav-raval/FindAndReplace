@@ -315,6 +315,10 @@ export default class FindAndReplace extends React.Component<IFindAndReplaceProps
                 "Replace"}
               </PrimaryButton>
             </div>
+            <br/><br/>
+            <div className={styles.column} style={{fontWeight: 'bold' , color : 'black', fontSize : '11px' , marginLeft :'7px'}} >
+              <span>Note: This webpart is desiged to replace items with Single Line Of Text Columns</span>
+            </div>
             <Dialog
               hidden={this.state.hDialog}
               dialogContentProps={{
